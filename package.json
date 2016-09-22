@@ -1,0 +1,27 @@
+{
+  "name": "simple-testimonials",
+  "version": "0.1.1",
+  "description": "A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.",
+  "main": "simple-testimonials.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/factor1/simple-testimonials.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Testimonials"
+  ],
+  "author": "Eric Stout (factor1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/factor1/simple-testimonials/issues"
+  },
+  "homepage": "https://github.com/factor1/simple-testimonials#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
+  }
+}
