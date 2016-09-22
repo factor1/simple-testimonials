@@ -4,7 +4,7 @@
  * @version 0.1.0
  */
 /*
-Plugin Name: Simple Testimonials
+Plugin Name: Simple Testimonials by Factor1
 Plugin URI: https://github.com/factor1/simple-testimonials
 Description: A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.
 Author: Eric Stout (Factor1)
