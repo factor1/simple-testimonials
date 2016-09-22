@@ -4,6 +4,11 @@ A simple & straight forward WordPress plugin that allows you to create testimoni
 ## Usage
 Coming Soon...
 
+## Important Notes
+
+- Simple Testimonials uses a custom archive slug of `/testimonials/` to access testimonial archives.
+- Simple Testimonials uses a custom permalink of `/testimonial/` for single posts.
+
 ## Issues, Questions, Contributions
 If you find a bug, have a question, or want to make a contribution please open a issue or pull request.
 
