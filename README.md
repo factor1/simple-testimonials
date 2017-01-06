@@ -11,6 +11,14 @@ The registered names for the post types and taxonomies are below:
 - Categories: `simple_testimonials_categories`
 - Tags: `simple_testimonials_tags`
 
+### ACF Fields
+There are a few ACF values that can be useful when integrating this plugin with your
+template.
+
+- `testimonial` - contains the body copy of the testimonial
+- `citation` - contains the citation string for the testimonial
+
+
 ## Important Notes on Slugs
 
 - Simple Testimonials uses a custom archive slug of `/testimonials/` to access testimonial archives.
