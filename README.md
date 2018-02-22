@@ -18,6 +18,19 @@ template.
 - `testimonial` - contains the body copy of the testimonial
 - `citation` - contains the citation string for the testimonial
 
+### Custom Functions
+You can now include excerpts with customizable word counts using the `simple_testimonials_excerpt()` function, which takes in two parameters, `$field` and `$words`.
+Examples:
+
+```
+<?php $content = get_field('content');
+
+// Displays 30-word excerpt of the $content field
+echo simple_testimonials_excerpt($content, 30);
+
+// Displays default 55-word excerpt of the $content field
+echo simple_testimonials_excerpt($content); ?>
+```
 
 ## Important Notes on Slugs
 
