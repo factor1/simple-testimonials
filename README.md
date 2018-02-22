@@ -19,17 +19,18 @@ template.
 - `citation` - contains the citation string for the testimonial
 
 ### Custom Functions
-You can now include excerpts with customizable word counts using the `simple_testimonials_excerpt()` function, which takes in two parameters, `$field` and `$words`.
+You can now include excerpts of these ACF fields with customizable word counts using the `simple_testimonials_excerpt()` function, which takes in two parameters, `$field` and `$words`.
+
 Examples:
 
 ```
-<?php $content = get_field('content');
+<?php $testimonial = get_field('testimonial');
 
-// Displays 30-word excerpt of the $content field
-echo simple_testimonials_excerpt($content, 30);
+// Displays 30-word excerpt of the $testimonial field
+echo simple_testimonials_excerpt($testimonial, 30);
 
-// Displays default 55-word excerpt of the $content field
-echo simple_testimonials_excerpt($content); ?>
+// Displays default 55-word excerpt of the $testimonial field
+echo simple_testimonials_excerpt($testimonial); ?>
 ```
 
 ## Important Notes on Slugs
