@@ -1,8 +1,4 @@
 <?php
-/**
- * @package Simple_Testimonials
- * @version 0.1.1
- */
 /*
 Plugin Name: Simple Testimonials by Factor1
 Plugin URI: https://github.com/factor1/simple-testimonials
@@ -12,11 +8,19 @@ Version: 0.1.1
 Author URI: http://www.factor1studios.com
 */
 
+/**
+ * @package Simple_Testimonials
+ * @version 0.1.1
+ */
+
 // Include ACF
 include_once( 'vendor/acf-pro/acf.php' );
 
 // Get the ACF field group for the Staff plugin.
 include('fields.php');
+
+// Get custom functions for the plugin
+include('inc/custom-functions.php');
 
 // Register Custom Post Type for Testimonials
 function simple_testimonials() {
