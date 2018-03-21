@@ -1,4 +1,6 @@
 # Simple Testimonials
+[![Build Status](https://travis-ci.org/factor1/simple-testimonials.svg?branch=master)](https://travis-ci.org/factor1/simple-testimonials)
+
 A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.
 
 ## Usage
