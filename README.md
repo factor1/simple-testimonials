@@ -1,4 +1,6 @@
 # Simple Testimonials
+[![Build Status](https://travis-ci.org/factor1/simple-testimonials.svg?branch=master)](https://travis-ci.org/factor1/simple-testimonials)
+
 A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.
 
 ## Usage
@@ -18,6 +20,20 @@ template.
 - `testimonial` - contains the body copy of the testimonial
 - `citation` - contains the citation string for the testimonial
 
+### Custom Functions
+You can now include excerpts of these ACF fields with customizable word counts using the `simple_testimonials_excerpt()` function, which takes in two parameters, `$field` and `$words`.
+
+Examples:
+
+```
+<?php $testimonial = get_field('testimonial');
+
+// Displays 30-word excerpt of the $testimonial field
+echo simple_testimonials_excerpt($testimonial, 30);
+
+// Displays default 55-word excerpt of the $testimonial field
+echo simple_testimonials_excerpt($testimonial); ?>
+```
 
 ## Important Notes on Slugs
 
