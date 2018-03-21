@@ -1,6 +1,6 @@
 {
   "name": "simple-testimonials",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.",
   "main": "simple-testimonials.php",
   "scripts": {
