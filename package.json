@@ -4,7 +4,7 @@
   "description": "A simple & straight forward WordPress plugin that allows you to create testimonials with citations and categories.",
   "main": "simple-testimonials.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/factor1/simple-testimonials#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-zip": "^3.2.0"
+    "gulp-zip": "^4.1.0"
   }
 }
